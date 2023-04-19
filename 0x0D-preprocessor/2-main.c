@@ -1,9 +1,9 @@
-#include <stdio.h>
-#include <stdio.lib>
+include <stdio.h>
+
 /**
-  main - print the name of the file
-  return: void
-*/
+ * main - prints the name of the file
+ * Return: void
+ */
 
 int main(void)
 {
