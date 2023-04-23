@@ -1,11 +1,12 @@
 #include "function_pointers.h"
 #include <stdio.h>
+
 /**
- array_iterator - prints each  element of an array
- @array: array
- @size: element in array
- @action: pointer to print in regular
- return: void
+* array_iterator - prints each  element of an array
+* @array: arr
+* @size: element in array
+* @action: pointer to print in regular
+* Return: void
 */
 	void array_iterator(int *array, size_t size, void (*action)(int))
 	{
