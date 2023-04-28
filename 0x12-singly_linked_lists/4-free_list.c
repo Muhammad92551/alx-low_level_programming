@@ -7,7 +7,7 @@
 
 void free_list(list_t *head)
 {
-	list_t *temp; //Declare a pointer to a temporary node
+	list_t *temp;
 
 	while (head)
 {
