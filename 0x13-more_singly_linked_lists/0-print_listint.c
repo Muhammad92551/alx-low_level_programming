@@ -1,6 +1,6 @@
-#include "lists.h"
 #include <stdio.h>
-
+#include <stdlib.h>
+#include "lists.h"
 /**
  * print_listint - func prints all ele in node
  * @h: pointer to the first ele in the node
