@@ -11,15 +11,15 @@
 
 size_t  print_listint(const listint_t *h)
 {
-int counter = 0;
-const struct listint_s *ptr;
-ptr = h;
+	int counter = 0;
+	const struct listint_s *ptr;
+	ptr = h;
 
-while (ptr != NULL)
-{
-printf("%d\n", ptr->n);
-ptr = ptr->next;
-counter++;
-}
-return (counter);
+	while (ptr != NULL)
+	{
+		printf("%d\n", ptr->n);
+		ptr = ptr->next;
+		counter++;
+	}
+	return (counter);
 }
