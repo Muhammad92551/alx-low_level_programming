@@ -1,6 +1,5 @@
+#include "lists.h"
 #include <stdio.h>
-#include <stdlib.h>
-#include <list.h>
 
 /**
  * print_listint - func prints all ele in node
